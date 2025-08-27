@@ -1,0 +1,3 @@
+# client/.gitignore and backend/.gitignore
+node_modules/
+.env
