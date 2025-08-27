@@ -6,7 +6,7 @@ const app = express();
 
 app.use(
   cors({
-    origin: 'https://lawngreen-duck-715854.hostingersite.com',
+    origin: 'https://selenecare.in',
     methods: ['GET', 'PUT', 'POST', 'DELETE', 'OPTIONS', 'PATCH'],
     credentials: true, // ✅ allow cookies to be sent
     optionsSuccessStatus: 200,
