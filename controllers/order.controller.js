@@ -6,8 +6,7 @@ import { Cart } from "../models/cart.schema.js";
 import { Product } from "../models/product.model.js";
 import crypto from "crypto";
 import Razorpay from "razorpay";
-import dotenv from "dotenv";
-dotenv.config();
+
 // 1. Place a new order with giftCost calculation
 console.log("key_id", process.env.KEY_ID);
 console.log("key_secret", process.env.KEY_SECRET);
