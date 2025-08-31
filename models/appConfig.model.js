@@ -5,12 +5,12 @@ const appConfigSchema = new mongoose.Schema(
     miniNavContent: {
       linkTo: {
         type: String,
-        required: true,
+   
         trim: true
       },
       text: {
         type: String,
-        required: true,
+
         trim: true
       }
     },
