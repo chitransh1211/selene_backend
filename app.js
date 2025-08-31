@@ -6,7 +6,7 @@ const app = express();
 
 app.use(
   cors({
-    origin: ['https://selenecare.in', 'https://admin.selenecare.in'],
+    origin: ['https://selenecare.in', 'https://admin.selenecare.in','https://api.selenecare.in'],
     methods: ['GET', 'PUT', 'POST', 'DELETE', 'OPTIONS', 'PATCH'],
     credentials: true, // ✅ allow cookies to be sent
     optionsSuccessStatus: 200,
