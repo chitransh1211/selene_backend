@@ -4,7 +4,7 @@ import cookieParser from "cookie-parser";
 
 const app = express();
 
-const allowedOrigins = ['https://selenecare.in', 'https://admin.selenecare.in'];
+const allowedOrigins = ['https://selenecare.in', 'https://admin.selenecare.in', 'http://localhost:5172', 'http://localhost:5173', 'http://192.168.1.3:5172'];
 
 app.use(cors({
   origin: allowedOrigins,
